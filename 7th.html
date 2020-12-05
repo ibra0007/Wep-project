@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>A reverse Text Field</h3>
+
+<input type="text" id="myText" value="">
+    <input type="text" id="Text" value="">
+
+    
+
+
+<button onclick="myFunction()">reverse</button>
+
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+    var y =    document.getElementById("Text").value;
+   x = Number(x);
+    y = Number(y);
+    //code write area
+        res = x+y-1;
+                
+    
+   //end of the code
+   res = (res<0)? 0 : res;
+  document.getElementById("demo").innerHTML =res;  
+    
+    
+    
+}
+</script>
+
+</body>
+</html>
